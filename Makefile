@@ -25,7 +25,7 @@ IFLAGS_EXEC := -m 0755
 IFLAGS := -m 0644
 
 # Build the taskfarmer executable.
-all: $(BUILD_DIR_ABS)/taskfarmer
+all: $(BUILD_DIR_ABS)/src/taskfarmer
 
 $(BUILD_DIR_ABS)/src:
 	mkdir -p $(BUILD_DIR_ABS)/src
